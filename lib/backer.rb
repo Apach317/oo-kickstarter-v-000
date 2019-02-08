@@ -23,10 +23,11 @@ class Backer
 
   def initialize
     @backed_projects = []
+    project = Project.new
   end
 
   def back_project(project)
-    @backed_projects << Project.new
+    @backed_projects << project
   end
   self
 
