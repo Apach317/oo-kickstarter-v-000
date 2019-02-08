@@ -18,8 +18,8 @@
 #
 # - Similarly, whenever `add_backer()` is called to update `@backers`, the backer _should also update its `@backed_projects` list_.
 class Backer
-  attr_accessor :name, :project
-  # attr_reader :project
+  attr_accessor :name
+  attr_reader :project
 
   def initialize(name)
     @name = name
