@@ -19,7 +19,7 @@
 # - Similarly, whenever `add_backer()` is called to update `@backers`, the backer _should also update its `@backed_projects` list_.
 
 class Backer
-  attr_reader :project
+  attr_reader :name
 
   def initialize
     @backed_projects = []
