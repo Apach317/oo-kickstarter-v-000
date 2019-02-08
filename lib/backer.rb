@@ -17,7 +17,7 @@
 # - Whenever `back_project()` is called to update `@backed_projects`, the project _should alsoupdate its `@backers` list_.
 #
 # - Similarly, whenever `add_backer()` is called to update `@backers`, the backer _should also update its `@backed_projects` list_.
-
+require binding.pry
 class Backer
   attr_reader :name
 
